@@ -3,5 +3,5 @@ from django.http import HttpResponse
 # Create your views here.
 
 def methodinfo(request):  
-    return HttpResponse("india.:"+request.method)  
+    return HttpResponse("india Neemuch.:"+request.method)  
 
